@@ -1,36 +1,46 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
-  }
+    font-size: 18px
+}
+
+.siteheader{
+    font-size: 2em;
+    font-weight: bold;
+}
   
-  .emoji {
+.emoji {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
-  }
-  
-  .emoji h2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
-  }
-  
-  .emoji a {
+    font-size: 1.2em;
+    color: #000;
+    font-weight: bold;
+}
+
+.emoji a {
     text-decoration: none;
     background-color: #781BAA;
     color: white;
     padding: 1rem;
     border-radius: 8px;
-  }
-  
-  .icon {
+    
+}
+
+.icon {
     font-size: 4rem;
-  }
+    display: flex;
+}
 
-  .emojis {
-      display: grid;
-      grid-template-columns: 2fr 2fr;
-  }
-
-  .emoji{
-      display: flex;
-  }
+.emojis {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}

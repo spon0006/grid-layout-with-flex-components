@@ -1,5 +1,5 @@
 html{
-    max-width: 900px;
+    max-width: 950px;
     margin: auto;
 }
 
@@ -22,7 +22,7 @@ body {
     padding: 10px;
 }
 
-p{
+.emoji p{
     order: 2;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -35,32 +35,27 @@ p{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
-    align-content: flex-end;
-    
 }
 
 .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: #000;
     font-weight: bold;
     order: 1;
-    
+    padding-top: 10px;   
 }
 
 .emoji a {
     text-decoration: none;
     background-color: #781BAA;
     color: white;
+    width: 93%;
     padding: 1rem;
     border-radius: 8px;
     order: 3;
-    flex-basis: auto;
-    align-self: flex-end;
-    
+    align-self: flex-end;  
 }
 
 .icon {
@@ -68,6 +63,6 @@ p{
     order: 0;
     align-self: center;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 

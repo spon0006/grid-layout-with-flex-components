@@ -33,8 +33,10 @@ body {
     border-radius: 8px;
     padding: 1rem;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    align-items: auto;
+    align-content: stretch;
+    justify-content: space-between;
 }
 
 .emoji h2 {
@@ -55,7 +57,7 @@ body {
     padding: 1rem;
     border-radius: 8px;
     order: 3;
-    align-self: flex-end;  
+    align-self: flex-end;
 }
 
 .icon {

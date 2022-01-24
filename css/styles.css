@@ -34,7 +34,6 @@ body {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: auto;
     align-content: stretch;
     justify-content: space-between;
 }
